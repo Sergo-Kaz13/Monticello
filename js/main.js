@@ -79,7 +79,7 @@ function init() {
         position: new google.maps.LatLng(40.6647467, -73.9734239),
         map: map,
         title: 'Grand Army Plaza Greenmarket',
-        icon: '../images/Pin.png',
+        icon: './images/Pin.png',
     });
 }
 
