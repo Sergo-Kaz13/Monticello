@@ -4,11 +4,418 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXD-pAiVQhnOhlLh1hcU6K8d7zeVIwOlk" defer></script>
   <script src="js/main.js" defer></script>
   <title>Monticello</title>
 </head>
 <body>
-  
+  <div class="wrapper">
+    <header class="header">
+      <div class="header_container">
+        <div class="header_navigation _container">
+          <a href="#" class="header-logo">
+            <img src="./images/Logo.png" alt="Monticello">
+          </a>
+          <nav class="header-nav nav">
+            <ul class="nav-menu menu">
+              <li class="menu-item">
+                <a href="#" class="menu-link">ABOUT US</a>
+              </li>
+              <li class="menu-item">
+                <a href="#project" class="menu-link">PROJECTS</a>
+              </li>
+              <li class="menu-item">
+                <a href="#news" class="menu-link">NEWS</a>
+              </li>
+              <li class="menu-item">
+                <a href="#contact" class="menu-link">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-social social">
+            <li class="social">
+              <a href="#" class="social-link">
+                <img src="./images/fb.svg" alt="fb">
+              </a>
+            </li>
+            <li class="social">
+              <a href="#" class="social-link">
+                <img src="./images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="social">
+              <a href="#" class="social-link">
+                <img src="./images/inst.svg" alt="instagram">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+            <!--todo ____ Slider HEADER ________ -->
+          <div class="swiper swiper-header">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide-item">
+                  <h1 class="header_title">SIMPLE & MODERN</h1>
+                  <h3 class="header_subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-item">
+                  <h1 class="header_title">SIMPLE & MODERN</h1>
+                  <h3 class="header_subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+                </div>  
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-item">
+                  <h1 class="header_title">SIMPLE & MODERN</h1>
+                  <h3 class="header_subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+                </div>  
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-item">
+                  <h1 class="header_title">SIMPLE & MODERN</h1>
+                  <h3 class="header_subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+                </div>  
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-item">
+                  <h1 class="header_title">SIMPLE & MODERN</h1>
+                  <h3 class="header_subtitle">WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h3>
+                </div>  
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- ? ____ end Sliser HEADER ________ -->
+      </div>
+      <a href="#project" class="header_btn-down"></a>
+    </header>
+
+    <main class="main">
+      <section id="project" class="section_project project">
+        <div class="project__block _container">
+          <h2 class="project_title">WHAT WE DO</h2>
+
+          <div class="project_trade trade">
+            <div class="trade__block-img">
+              <img src="./images/trade-centr.jpg" alt="trade center" class="trade__img">
+            </div>
+            <div class="trade__info-block">
+              <h4 class="trade__subtitle">ONE WORLD</h4>
+              <h3 class="trade__title">TRADE CENTER</h3>
+              <p class="trade__text">
+                Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.
+              </p>
+              <button class="trade__btn">MORE DETAILS</button>
+              <a href="https://www.google.com/maps/search/New+York+City,+United+States+-+1776+feet/@40.7107278,-74.011927,16.25z" target="_blanck" class="trade__location-link">New York City, United States - 1776 feet</a>
+            </div>
+          </div>
+
+          <div class="project_commerce commerce">
+            <div class="commerce__info-block">
+              <h4 class="commerce__subtitle">INTERNATIONAL</h4>
+              <h3 class="commerce__title">COMMERCE CENTRE</h3>
+              <p class="commerce__text">
+                Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.
+              </p>
+              <button class="commerce__btn">MORE DETAILS</button>
+              <a href="https://www.google.com/maps/place/Hong+Kong+Bazaar+Rd,+UG+14,+Block+F,+Sushant+Lok+III,+Sector+57,+Gurugram,+Haryana,+%D0%98%D0%BD%D0%B4%D0%B8%D1%8F/@28.4211163,77.0917612,17z/data=!4m5!3m4!1s0x390d220f2e6f7431:0xcdb18c3851953b15!8m2!3d28.4213381!4d77.0912355?hl=ru" target="_blanck" class="commerce__location-link">Hong Kong - 1588 feet</a>
+            </div>
+            <div class="commerce__block-img">
+              <img src="./images/commerce-centr.jpg" alt="commerce center" class="commerce__img">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="section__news news">
+        <div class="news__block _container">
+          <h2 class="news__title">LATEST NEWS</h2>
+
+              <!-- todo _____ todo Slider NEWS _____ -->
+
+              <div class="swiper-container">
+                <div class="swiper swiper-news">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="images/news1.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                          <p class="slide-text">
+                            Free directories: directories are perfect for customers that are searching for...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author1.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">ALJA BRUN</h5>
+                              <span class="date-publication">20 Jan 2020</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="./images/news2.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">EFFECTIVE ADVERTISING POINTERS.</h4>
+                          <p class="slide-text">
+                            Having a home based business is a wonderful asset to your life...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author2.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">DOMINIC FREEMAN</h5>
+                              <span class="date-publication">13 Dec 2019</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="images/news1.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                          <p class="slide-text">
+                            Free directories: directories are perfect for customers that are searching for...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author1.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">ALJA BRUN</h5>
+                              <span class="date-publication">20 Jan 2020</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <!-- <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="images/news3.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">HYPNOTIZE YOURSELF INTO THE GHOST.</h4>
+                          <p class="slide-text">
+                            There are many things that are important to catalog design...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author3.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">ALICE WARD</h5>
+                              <span class="date-publication">30 Nov 2019</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="./images/news2.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">EFFECTIVE ADVERTISING POINTERS.</h4>
+                          <p class="slide-text">
+                            Having a home based business is a wonderful asset to your life...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author2.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">DOMINIC FREEMAN</h5>
+                              <span class="date-publication">13 Dec 2019</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div> -->
+      
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="./images/news2.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">EFFECTIVE ADVERTISING POINTERS.</h4>
+                          <p class="slide-text">
+                            Having a home based business is a wonderful asset to your life...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author2.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">DOMINIC FREEMAN</h5>
+                              <span class="date-publication">13 Dec 2019</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      
+                    <div class="swiper-slide">
+                      <div class="slide-container">
+                        <div class="block-img">
+                          <img src="images/news1.jpg" alt="">
+                        </div>
+                        <div class="slide-content">
+                          <h4 class="slide-title">SEE THE UNMATCHED BEAUTY OF THE GREAT.</h4>
+                          <p class="slide-text">
+                            Free directories: directories are perfect for customers that are searching for...
+                          </p>
+                          <div class="slide-block-author">
+                            <div class="author-icon">
+                              <img src="./images/author1.jpg" alt="">
+                            </div>
+                            <div class="author-date">
+                              <h5 class="author-name">ALJA BRUN</h5>
+                              <span class="date-publication">20 Jan 2020</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+      
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+                  <!--? _____ end Slider NEWS ______-->
+        </div>
+      </section>
+
+      <section class="section__gallery gallery">
+        <div class="gallery__block _container">
+          <h2 class="gallery__title">GALLERY</h2>
+          <div class="gallery__images images">
+            <div class="images__left img">
+              <img class="images__img" src="./images/Image1.jpg" alt="">
+            </div>
+            <div class="images__rigth img">
+              <div class="images__block-img">
+                <img class="images__img" src="./images/Image2.jpg" alt="">
+              </div>
+              <div class="images__block-img">
+                <img class="images__img" src="./images/Image3.jpg" alt="">
+              </div>
+              <div class="images__block-img">
+                <img class="images__img" src="./images/image4.jpg" alt="">
+              </div>
+              <div class="images__block-img">
+                <img class="images__img" src="images/Image5.jpg" alt="">
+              </div>
+
+            </div>
+          </div>
+          <button class="gallery__btn">SEE MORE</button>
+        </div>
+      </section>
+
+      <section id="contact" class="section__contact">
+        <div id="map"></div>
+        <div class="block__form">
+          <h2 class="block__form-title">GET IN TOUCH</h2>
+          
+          <div class="form__container">
+            <div class="block__date">
+              <p>
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://www.google.com/maps/place/91+Nolans+Ln,+Glace+Bay,+NS+B1A+3A6,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B4%D0%B0/@46.194843,-59.9718753,17z/data=!3m1!4b1!4m5!3m4!1s0x4b67e1c7a8a4ba85:0x46c11f4e77f4ccdb!8m2!3d46.1948393!4d-59.9696866" target="_blanck" class="contact__local">91 Nolan Extensions Suite 670</a>
+              </p>
+              <p>
+                <i class="fas fa-phone-alt"></i>
+                <a class="date__tel" href="tel:+0123456789">+001 356-868-2454</a>
+              </p>
+              <p>
+                <i class="fas fa-inbox"></i>
+                <a class="date__mail" href="montichello@service.com">montichello@service.com</a>
+              </p>
+              <p>
+                <i class="far fa-clock"></i>
+                From 07:05AM to 19:30PM
+              </p>
+            </div>
+
+            <form id="form">
+              <div>
+                <input type="text" name="name" placeholder="First name" required>
+              </div>
+              <div>
+                <input type="email" name="email" placeholder="Email" required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+">
+              </div>
+              <button type="submit" class="form__btn">submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__block">
+        <div class="footer__logo">
+          <a href="#" class="footer__logo-link">
+            <img src="./images/Logo.png" alt="Monticello" class="footer__logo-img">
+          </a>
+          <p class="footer__text">
+            Copyrights © 2020 Montichello
+          </p>
+        </div>
+        <ul class="footer__social-icon">
+          <li class="footer__social-icon-item">
+            <a href="" class="footer__social-icon-link">
+              <img src="./images/fb.svg" alt="" class="footer__social-icon-img">
+            </a>
+          </li>
+          <li class="footer__social-icon-item">
+            <a href="" class="footer__social-icon-link">
+              <img src="./images/twitter.svg" alt="" class="footer__social-icon-img">
+            </a>
+          </li>
+          <li class="footer__social-icon-item">
+            <a href="" class="footer__social-icon-link">
+              <img src="./images/inst.svg" alt="" class="footer__social-icon-img">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
